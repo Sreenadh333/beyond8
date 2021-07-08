@@ -2,23 +2,17 @@ const data = {
   courses: [
     {
       _id: "1",
-      title: "Seminar on Mern Stack by Aravind",
-      image: "/images/p1.jpg",
-      rating: 4.5,
-      seatCount: 20,
-      numReviews: 10,
+      title: "Java For Beginners",
+      image: "/images/p3.jpg",
       description:
-        "Attendees gain hands-on experience with the latest version of React and the tools for developing React applications.",
+        "Java is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code (known as bytecode) runs on most operating systems (OS), including Windows, Linux and Mac OS.",
     },
     {
       _id: "2",
-      title: "Seminar on React by Prashanth",
-      image: "/images/p2.jpg",
-      rating: 4,
-      seatCount: 0,
-      numReviews: 10,
+      title: "Python for Beginners",
+      image: "/images/p4.jpg",
       description:
-        "Attendees gain hands-on experience with the latest version of React and the tools for developing React applications.",
+        "Python is a language with a simple syntax, and a powerful set of libraries. It is an interpreted language, with a rich programming environment, including a robust debugger and profiler. While it is easy for beginners to learn, it is widely used in many scientific areas for data exploration.",
     },
   ],
 };

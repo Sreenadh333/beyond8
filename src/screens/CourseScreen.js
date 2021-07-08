@@ -10,10 +10,13 @@ export default function CouseScreen(props) {
     <div>
       <Link to="/">Back to Home</Link>
       <div className="row top">
-        <div className="col-2">
-          <img className="large" src={course.image} alt={course.name}></img>
+        <div>
+          <li>
+            <h1>{course.title}</h1>
+          </li>
+          <img src={course.image} alt={course.name}></img>
 
-          <div className="col-1">
+          <div>
             <ul>
               <li>
                 <h1>{course.name}</h1>
